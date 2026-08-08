@@ -140,3 +140,6 @@
 body{
     animation: fadeIn 1s ease-in-out;
 }
+.twofold{
+    padding-left:10px ;
+}

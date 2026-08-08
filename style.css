@@ -48,6 +48,7 @@
     margin: 0 auto;
     margin-top: 5vh;
     font-family: 'Inter';
+    white-space: nowrap;   
 }
 .left-box,.right-box{
     flex: 1;
@@ -63,7 +64,6 @@
     top: 125%;
     left: 50%;
     transform: translateX(-50%);
-    #white-space: nowrap;   
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
@@ -71,7 +71,11 @@
     color: white;
     padding: 6px 12px;
     border-radius: 6px;
-    font-size: 0.8rem;
+}
+@media (min-width:768px){
+    .tip{
+        white-space: nowrap;   
+    }
 }
 .nav-button:hover .tip{
     opacity:1;
@@ -89,6 +93,10 @@
     font-family: 'Poppins';
     width: fit-content;
     margin: 3vh auto;
+    #white-space: nowrap; 
+    text-align: center;  
+
+
 }
 .wicfmain{
       max-width: 75ch; 
@@ -99,6 +107,7 @@
 }
 .wicfheader h1{
     position: relative;
+    font-size: clamp(1rem, 4vw, 2.2rem);
 }
 .wicfheader h1::after{
     content: "";

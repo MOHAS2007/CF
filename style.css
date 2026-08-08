@@ -8,6 +8,8 @@
 }
 .topic{
     margin-bottom: 5vh;
+    margin-top: 2vh;
+    font-family: 'Poppins';
 }
 .navlinks{
     display: flex;
@@ -19,19 +21,32 @@
     padding-bottom:2vw;
     max-width: 80%;
     margin: auto auto;
+    border-radius: 50px;
 }
 .navlinks a{
+    display: inline-block;
     text-decoration: none;
     color:black;
     background-color:antiquewhite;
     padding: 0.5vw;
     border-radius: 10px;
+    transition: all 0.3s ease;
+    border: 0.3vw solid antiquewhite;
+    font-family:'Inter';
+
 }
+.navlinks a:hover{
+    background-color:rgb(49, 49, 209);
+    color: aliceblue;
+    transform: scale(1.1);
+    border: 0.3vw solid #333333;
+}   
 .hero-section{
     display: flex;
     max-width: 80%;
     margin: 0 auto;
     margin-top: 5vh;
+    font-family: 'Inter';
 }
 .left-box,.right-box{
     flex: 1;
@@ -40,7 +55,6 @@
     border-radius: 50%;
     width: 40vw;
     aspect-ratio: 1/1;
-    #object-fit: cover;
     margin-top: 5vh;
 }
 

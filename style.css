@@ -33,6 +33,7 @@
     transition: all 0.3s ease;
     border: 0.3vw solid antiquewhite;
     font-family:'Inter';
+    position: relative;
 
 }
 .navlinks a:hover{
@@ -57,4 +58,23 @@
     aspect-ratio: 1/1;
     margin-top: 5vh;
 }
-
+.tip{
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;   
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    background-color: #333;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+}
+.nav-button:hover .tip{
+    opacity:1;
+    visibility: visible;
+    top: 115%;
+}

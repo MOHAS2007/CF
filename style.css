@@ -41,7 +41,7 @@
     color: aliceblue;
     transform: scale(1.1);
     border: 0.3vw solid #333333;
-}   
+}
 .hero-section{
     display: flex;
     max-width: 80%;
@@ -77,10 +77,12 @@
         white-space: nowrap;   
     }
 }
-.nav-button:hover .tip{
-    opacity:1;
-    visibility: visible;
-    top: 115%;
+@media(min-width:768px){
+    .nav-button:hover .tip{
+                        opacity:1;
+                        visibility: visible;
+                        top: 115%;
+}
 }
 .wicfmain p{
     margin: 3vh;

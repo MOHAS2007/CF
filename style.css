@@ -82,8 +82,10 @@
     background-color:#7180ff;
     border: solid white 1px;
     color: white;
-    padding: 6px 12px;
+    padding: 0 10vh;
     border-radius: 6px;
+    white-space: nowrap; 
+
 }
 .tip.show-element {
     opacity: 1;
@@ -145,6 +147,11 @@
 }
 .about-topic{
     position: relative;
+        font-family: 'Poppins';
+
+}
+.idn{
+    padding-top: 3vh;
 }
 .att{
     position: absolute;
@@ -208,3 +215,8 @@ body{
     border-radius: 10px;
 }
 .khl{position: relative;}
+
+body{
+    color:#212636;
+
+}

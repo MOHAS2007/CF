@@ -180,6 +180,15 @@ body{
     .steps,.variables{
         padding-left: 3vw;
     }
+    .att{
+        font-size: 4vw;
+        white-space: nowrap; 
+        font-family: 'Poppins';
+      }
+    .ath{
+        margin-bottom: 3vh;
+    }
+    
 }
 
 

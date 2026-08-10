@@ -99,7 +99,6 @@
     #white-space: nowrap; 
     text-align: center;  
 
-
 }
 .wicfmain{
       max-width: 75ch; 
@@ -146,3 +145,41 @@ body{
 .twofold{
     padding-left:10px ;
 }
+.ath{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+.about-topic{
+    position: relative;
+}
+.att{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: normal;
+    font-size: 1.5vw;
+}
+.about-main{
+    padding-left: 2vw;
+    font-family: 'Segoe UI';
+    margin: auto auto;
+    max-width: 60%;
+}
+.variables li{
+    margin: 2vh;
+}
+.steps li{
+    margin: 2vh;
+
+}
+@media (max-width:768px){
+    .about-main{
+        max-width: fit-content;   
+    }
+    .steps,.variables{
+        padding-left: 3vw;
+    }
+}
+
+

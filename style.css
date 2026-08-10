@@ -208,7 +208,8 @@
 }
 body{
     background: linear-gradient(135deg, #7180ff, #a181ff);
-    background-attachment: fixed; 
+    background-attachment: fixed;
+    height: 100vh; 
 }
 .khl::after{
     content: "";
